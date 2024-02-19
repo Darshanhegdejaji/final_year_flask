@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>plantLyf - HOME Page</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/mainPage.css') }}">
+
+  </head>
+  <body>
+    <div id="main-container">
+    <!-- navbar -->
+    <div class="navbar-container">
+      <div class="headingContainer">
+        <span class="brandHeading">plantLyf</span>
+      </div>
+      <div class="navbar">
+        <ul class="navul">
+          <li>
+            <a href="#" class="Home"> Home </a>
+          </li>
+          <li>
+            <a href="#" class="about"> About </a>
+          </li>
+          <li>
+            <a href="#" class="Contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <!-- buttons -->
+      <div id="jump-section">
+        <div id="right-section">
+          <img
+            src="https://images.pexels.com/photos/6026441/pexels-photo-6026441.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="plantLyf"
+          />
+        </div>
+        <div id="left-section">
+          <div id="plantLyf-information">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+          </div>
+          <div id="main-buttons">
+            <button id="plant-rec">Get Plant Recommendation</button>
+            <button id="disease-detect">Detect Plant Disease</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/main.js"></script>
+</html>
